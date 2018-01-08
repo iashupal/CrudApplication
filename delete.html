@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!--    header start    -->
+                        <div class="row">
+                            <div id="heading" class="col-sm-7">
+                                <h1>CRUD Application</h1> </div>
+                            <div id="menu" class="col-sm-5">
+                                <ul>
+                                    <li> <a href="index.html">Create</a> </li>
+                                    <li> <a href="read.html">Read</a> </li>
+                                    <li> <a href="update.html">Update</a> </li>
+                                    <li> <a href="delete.html">Delete</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content reg_div">
+            <label for="reg">Registration No.</label>
+            <input type="number" class="regNo" id="reg" placeholder="Registration No." required>
+            <input type="button" class="button" id="delete_btn" value="Delete" onclick="deleteData()"> </div>
+    </div>
+</body>
+
+</html>

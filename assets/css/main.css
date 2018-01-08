@@ -1,0 +1,147 @@
+body {
+    /*    margin-left: 25%;*/
+    padding: 2px;
+}
+
+form {
+    /*    border: 1px solid;*/
+    width: 50%;
+    margin-left: 25%;
+}
+
+header {
+    border: 1px solid;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    margin-bottom: 2%;
+    background-color: #283F3B;
+    box-shadow: 1px 1px 10px black;
+}
+
+header h1 {
+    font-size: 38px;
+    font-family: colonna MT;
+    color: #EDDDD4;
+}
+
+header #menu ul {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+header #menu ul li {
+    color: brown;
+    margin: 0% 4.8%;
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    /*    font-weight: bold;*/
+    font-family: Imprint MT Shadow;
+    /*    border-bottom: 2px solid #fafafb;*/
+}
+
+header #menu ul li a {
+    text-decoration: none;
+    /*    display: block;*/
+    color: #EDDDD4;
+    cursor: pointer;
+}
+
+header #menu ul li: hover {
+    transition: 0.5s;
+    border-bottom: 2px solid #EDDDD4;
+    cursor: pointer;
+    color: brown;
+    transition-timing-function: linear;
+    width: 5px;
+}
+
+.contain {
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    width: 75%;
+    text-align: justify;
+    box-shadow: 0px 0px 4px 5px #4F646F;
+}
+
+.contain .content {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Imprint MT Shadow;
+    color: #283F3B;
+}
+
+.content input {
+    padding: 5px;
+    font-family: Times New Roman;
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+}
+
+.content .name {
+    margin-left: 21%;
+}
+
+.content .regNo {
+    margin-left: 8% !important;
+}
+
+.course {
+    width: 49%;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 30%;
+    border-bottom: 1px solid gray;
+}
+
+.content .gender {
+    margin-left: 28%;
+}
+
+.content .address {
+    margin-left: 26%;
+}
+
+.content .mobile {
+    margin-left: 28%;
+}
+
+.content #save_btn {
+    padding: 6px;
+    width: 18%;
+    color: white;
+    background: #283F3B;
+}
+
+.content #clear_btn {
+    width: 18%;
+    padding: 6px;
+    color: white;
+    background: #283F3B;
+    margin-left: 57%;
+}
+
+.reg_div {
+    border: 1px solid;
+    width: 50%;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Imprint MT Shadow;
+    box-shadow: 0px 0px 4px 5px #4F646F;
+    margin-bottom: 3%;
+    border-spacing: 10px;
+    border-bottom-style: dashed;
+}
+
+.content .button {
+    padding: 6px;
+    width: 18%;
+    color: white;
+    background: #283F3B;
+}
